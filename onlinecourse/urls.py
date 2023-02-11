@@ -21,4 +21,4 @@ urlpatterns = [
 
     # <HINT> Create a route for show_exam_result view
 
- ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
